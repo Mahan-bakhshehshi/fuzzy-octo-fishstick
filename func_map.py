@@ -1,7 +1,7 @@
 class Person :
     def __init__(self , id , health , interest , Authority_Role , mobility):
         self.id = id
-        self.health = health  #healthy      
+        self.health = health  #healthy  , sick , COVID suspect    
         self.interest = interest    #math, AI, art, economey
         self.Authority_Role = Authority_Role    #True, False
         self.mobility = mobility #0 , 1 , 2 (integers)
